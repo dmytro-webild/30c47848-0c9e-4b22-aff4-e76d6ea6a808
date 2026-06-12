@@ -91,7 +91,7 @@ export default function LandingPage() {
           src: "http://img.b2bpic.net/free-photo/people-recording-their-house-tour_23-2151139106.jpg",          alt: "Customer Tasnia"},
       ]}
       avatarText="আমাদের সন্তুষ্ট গ্রাহক"
-      imageSrc="http://img.b2bpic.net/free-photo/table-texture-looking-out-men-bar_23-2147701331.jpg"
+      imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3F0rrJvfWoXa7lPjV14kgNAY0zy/uploaded-1781224008827-qyx9utnl.jpg"
       imageAlt="Restaurant ambiance with dimmed lighting"
       marqueeItems={[
         {
