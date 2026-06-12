@@ -48,6 +48,22 @@ export default function LandingPage() {
     />
   </div>
 
+  {/* New text element below navigation */}
+  <h2
+    className="text-center font-bold py-8"
+    style={{
+      backgroundImage: 'linear-gradient(to right, var(--primary-cta), var(--accent))',
+      WebkitBackgroundClip: 'text',
+      WebkitTextFillColor: 'transparent',
+      backgroundClip: 'text',
+      color: 'transparent', // Fallback for browsers that don't support text-fill-color
+      fontSize: 'clamp(3rem, 7vw, 6rem)', // Responsive font size
+      fontFamily: 'var(--font-mulish), sans-serif',
+    }}
+  >
+    রন্ধন শালা
+  </h2>
+
   <div id="home" data-section="home">
       <HeroBillboardTestimonial
       useInvertedBackground={false}
